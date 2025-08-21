@@ -1,0 +1,21 @@
+{
+  "name": "output-envs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "clean": "rm -rf dist",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bun": "^1.1.13",
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {}
+}
