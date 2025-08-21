@@ -45,5 +45,5 @@ jobs:
           platforms: linux/arm64,linux/amd64
           push: true
           tags: |
-            ghcr.io/coffee-cup/railway-utils:latest
-            ghcr.io/coffee-cup/railway-utils:${{ steps.datetime.outputs.tag }}
+            ghcr.io/coffee-cup/image-date-tags:latest
+            ghcr.io/coffee-cup/image-date-tags:${{ steps.datetime.outputs.tag }}
